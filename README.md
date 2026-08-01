@@ -49,7 +49,7 @@ Data Preparation → Markov Chain Modeling → Insight Generation
 ## Tech stack
 
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
-- **Analytics:** Google Analytics, WalkMe
+- **Analytics:** Google Analytics (Universal Analytics — GA has since moved to GA4), WalkMe
 - **Hosting:** Netlify
 - **Data analysis:** Python, pandas, NumPy, seaborn/matplotlib, `markovclick`
 
@@ -67,4 +67,4 @@ See [`docs/project_report.pdf`](./docs/project_report.pdf) for the complete writ
 of the Google Analytics dashboard, transition heatmap, and Markov chain graph.
 
 ---
-*Built by [Bhavya Panguluri](https://github.com/BhavyaPanguluri) as a final-year college project.*
+*Built by [Bhavya Panguluri](https://github.com/BhavyaPanguluri) in 2019, as a final-year college project.*

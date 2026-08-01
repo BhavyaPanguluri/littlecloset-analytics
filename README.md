@@ -67,4 +67,4 @@ See [`docs/project_report.pdf`](./docs/project_report.pdf) for the complete writ
 of the Google Analytics dashboard, transition heatmap, and Markov chain graph.
 
 ---
-*Built by [Bhavya Panguluri](https://github.com/BhavyaPanguluri) in 2019, as a final-year college project.*
+*Built by [Bhavya Panguluri](https://github.com/BhavyaPanguluri) in 2019, as one of college projects in final year.*

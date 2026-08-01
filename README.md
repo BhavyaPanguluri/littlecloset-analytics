@@ -19,8 +19,8 @@ Data Preparation → Markov Chain Modeling → Insight Generation
 | Folder | Contents |
 |---|---|
 | [`website/`](./website) | The e-commerce site ("Little Closet") — HTML/CSS/JS, built from a template and customized, instrumented with Google Analytics and WalkMe |
-| [`analysis/`](./analysis) | `Bhavya.ipynb` — the Markov chain analysis notebook, plus the prepared clickstream dataset (`csvtoread1.csv`) |
-| [`docs/`](./docs) | Full write-up: methodology, heatmaps, transition diagrams, and recommendations |
+| [`analysis/`](./analysis) | `markov_chain_analysis.ipynb` — the Markov chain analysis notebook, plus the prepared clickstream dataset (`clickstream_sessions.csv`) |
+| [`docs/`](./docs) | `project_report.pdf` — full write-up: methodology, heatmaps, transition diagrams, and recommendations |
 
 ## Method
 
@@ -58,13 +58,13 @@ Data Preparation → Markov Chain Modeling → Insight Generation
 ```bash
 cd analysis
 pip install markovclick pandas numpy matplotlib seaborn
-jupyter notebook Bhavya.ipynb
+jupyter notebook markov_chain_analysis.ipynb
 ```
 
 ## Full report
 
-See [`docs/report_mind.pdf`](./docs/report_mind.pdf) for the complete write-up with screenshots
+See [`docs/project_report.pdf`](./docs/project_report.pdf) for the complete write-up with screenshots
 of the Google Analytics dashboard, transition heatmap, and Markov chain graph.
 
 ---
-*Built by [Bhavya Panguluri](https://github.com/BhavyaPanguluri) as one of the final-year college projects.*
+*Built by [Bhavya Panguluri](https://github.com/BhavyaPanguluri) as a final-year college project.*
